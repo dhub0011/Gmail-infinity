@@ -14,7 +14,7 @@ class Config:
     # ═══════════════════════════════════════════════════════════════
     YOUR_BIRTHDAY = os.getenv("YOUR_BIRTHDAY", "2 4 1990")
     YOUR_GENDER = os.getenv("YOUR_GENDER", "1")           # 1=Male, 2=Female, 3=Other
-    YOUR_PASSWORD = os.getenv("YOUR_PASSWORD", "")
+    YOUR_PASSWORD = os.getenv("YOUR_PASSWORD", "rqpro@123")
     RECOVERY_EMAIL = os.getenv("RECOVERY_EMAIL", "")
     RECOVERY_PHONE = os.getenv("RECOVERY_PHONE", "")
 
@@ -22,8 +22,8 @@ class Config:
     #                  SMS SERVICES
     # ═══════════════════════════════════════════════════════════════
     # 5sim
-    FIVESIM_API_KEY = os.getenv("FIVESIM_API_KEY", "")
-    FIVESIM_COUNTRY = os.getenv("FIVESIM_COUNTRY", "usa")
+    FIVESIM_API_KEY = os.getenv("FIVESIM_API_KEY", "j9rBvwqJLWEfkIHg0DsSVZy2qn6gFVEJvzx7JSICpRj7rEKkmKZ597oSTT9C")
+    FIVESIM_COUNTRY = os.getenv("FIVESIM_COUNTRY", "Indonesia")
     FIVESIM_OPERATOR = os.getenv("FIVESIM_OPERATOR", "any")
 
     # SMS-Activate
@@ -135,8 +135,8 @@ class Config:
     # ═══════════════════════════════════════════════════════════════
     #                  TELEGRAM NOTIFICATIONS
     # ═══════════════════════════════════════════════════════════════
-    TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
-    TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
+    TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "9221133980:AAEtE1kHXUZPqcJXhZaMNoNrM3oTYzwDn14")
+    TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "8362820771")
 
     # ═══════════════════════════════════════════════════════════════
     #                  VOICE SERVER SECURITY
